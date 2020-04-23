@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <link rel="stylesheet" type="text/css" href="/css/reset_pass.css">
+</head>
+<body>
+    <h1 style="text-align: center;">You can reset your password by entering your email and password</h1>
+    <br>
+    <form action="/update" method="POST">
+        <div class="text">
+            <input type="email" placeholder="E-mail id" name="user"  required>
+            <br><br><br>
+            <input type="password" placeholder="Password" name="pass" required>
+            <br><br><br>
+            <input type="password" placeholder="Password" name="newpass" required>
+            <br><br><br>
+        </div> 
+        <div class="butt">
+            <button type="submit" class="button1">Check</button>
+            <button type="reset" class="button1">Clear</button>
+        </div>
+    </form>
+    
+
+</body>
+</html>
