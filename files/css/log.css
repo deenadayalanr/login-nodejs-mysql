@@ -1,0 +1,221 @@
+body {
+	background-image: url("/images/login_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:auto;
+	font-family: sans-serif;
+}
+.log {
+	margin-top: 160px;
+	margin-left: 36%;
+   
+}
+.log h1 {
+	color: red;
+    font-size: 50px;
+    margin-left: 6%;
+    background-color: none;
+}
+
+.net {
+	font-size: 40px;
+	color:yellow;
+}
+.text {
+	margin-left: 5%;
+	margin-top: 50px;
+
+}
+
+.text input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 20px;
+	color: white;
+	border-bottom: 2px solid #4caf50;
+	border-radius: 30px;
+	padding-left: 3%;
+
+}
+.button1{
+	margin-left: 18%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button4{
+	margin-left: 1%;
+	font-size: 20px;
+	background: none;
+	color:yellow;
+	border-radius: 50px;
+}
+.button5{
+	margin-left: 1%;
+	font-size: 20px;
+	background: none;
+	color:yellow;
+	border-radius: 50px;
+}
+.button2 {
+	margin-left: 18%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button3 {
+	margin-left: 15%;
+	font-size: 25px;
+	background: none;
+	border-radius: 9px;
+	color:black;
+	background-color: aquamarine;
+}
+.button1:hover {
+  background-color:white;
+  color: black;
+}
+.button2:hover {
+	 background-color:transparent;
+}
+.button3:hover {
+	background-color: white;
+}
+::placeholder {
+	color: grey;
+}
+.animation {
+	width: 12%;
+	height: 25px;
+	animation-name: login;
+	animation-duration: 35s;
+	animation-iteration-count: 1;
+	background-color:none;
+	text-align: center;
+	border-radius: 25px;
+	color: red;
+}
+@keyframes login {
+	0% {
+		background-color: none;
+		margin-top: 90%;
+		margin-left: 0%;
+	}
+	25% {
+		background-color:none;
+		margin-top: 90%;
+		margin-left: 90%;
+	}
+	50% {
+		background-color: none;
+		margin-left: 90%;
+		margin-top: 0%;
+	}
+	75% {
+		background-color: none;
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+	background-image: url("login_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:auto;
+	font-family: sans-serif;
+}
+.log {
+	margin-top: 160px;
+	margin-left: 36%;
+   
+}
+.log h1 {
+	color: red;
+    font-size: 50px;
+    margin-left: 6%;
+    background-color: none;
+}
+
+.net {
+	font-size: 40px;
+	color:yellow;
+}
+.text {
+	margin-left: 5%;
+	margin-top: 50px;
+
+}
+
+.text input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 20px;
+	color: white;
+	border-bottom: 2px solid #4caf50;
+	border-radius: 30px;
+	padding-left: 3%;
+
+}
+.button1{
+	margin-left: 12%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button2 {
+	margin-left: 4%;
+	font-size: 20px;
+	background: none;
+	color: red;
+	border-radius: 50px;
+}
+.button1:hover {
+  background-color:white;
+  color: black;
+}
+.button2:hover {
+	 background-color: yellow;
+}
+::placeholder {
+	color: grey;
+}
+.animation {
+	width: 12%;
+	height: 25px;
+	animation-name: login;
+	animation-duration: 15s;
+	animation-iteration-count: 1;
+	background-color:none;
+	text-align: center;
+	border-radius: 25px;
+	color: white;
+}
+@keyframes login {
+	0% {
+		background-color: none;
+		margin-top: 90%;
+		margin-left: 0%;
+	}
+	25% {
+		background-color:none;
+		margin-top: 90%;
+		margin-left: 90%;
+	}
+	50% {
+		background-color: none;
+		margin-left: 90%;
+		margin-top: 0%;
+	}
+	75% {
+		background-color: none;
+
+	}
+}
+
+}
