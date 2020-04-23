@@ -1,0 +1,33 @@
+.text input{
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 29px;
+    width:45%;
+    background:rgba(121, 245, 245, 0.993);
+    font-size: 20px;
+    color:black;
+    border-bottom: 2px solid #4caf50;
+    border-radius: 30px;
+    padding-left: 1%;
+} 
+.text {
+    margin-left: 35%;
+}
+
+.butt {
+    margin-left: 42%;
+}
+
+.button1 {
+    margin-left: 2%;
+    font-size: 20px;
+    background: silver;
+    color: black;
+    border-radius: 0px;
+}
+
+.button1:hover {
+    background-color:black;
+    color:red;
+}
