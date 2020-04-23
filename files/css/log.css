@@ -87,38 +87,6 @@ body {
 ::placeholder {
 	color: grey;
 }
-.animation {
-	width: 12%;
-	height: 25px;
-	animation-name: login;
-	animation-duration: 35s;
-	animation-iteration-count: 1;
-	background-color:none;
-	text-align: center;
-	border-radius: 25px;
-	color: red;
-}
-@keyframes login {
-	0% {
-		background-color: none;
-		margin-top: 90%;
-		margin-left: 0%;
-	}
-	25% {
-		background-color:none;
-		margin-top: 90%;
-		margin-left: 90%;
-	}
-	50% {
-		background-color: none;
-		margin-left: 90%;
-		margin-top: 0%;
-	}
-	75% {
-		background-color: none;
-
-	}
-}
 
 @media only screen and (max-width: 600px) {
 	body {
@@ -185,37 +153,4 @@ body {
 ::placeholder {
 	color: grey;
 }
-.animation {
-	width: 12%;
-	height: 25px;
-	animation-name: login;
-	animation-duration: 15s;
-	animation-iteration-count: 1;
-	background-color:none;
-	text-align: center;
-	border-radius: 25px;
-	color: white;
-}
-@keyframes login {
-	0% {
-		background-color: none;
-		margin-top: 90%;
-		margin-left: 0%;
-	}
-	25% {
-		background-color:none;
-		margin-top: 90%;
-		margin-left: 90%;
-	}
-	50% {
-		background-color: none;
-		margin-left: 90%;
-		margin-top: 0%;
-	}
-	75% {
-		background-color: none;
-
-	}
-}
-
 }
